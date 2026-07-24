@@ -6,6 +6,7 @@ export const brand = {
 
 export const navLinks = [
   { href: '#services', label: { en: 'Services', ar: 'الخدمات' } },
+  { href: '#impact', label: { en: 'Partnership', ar: 'الشراكة' } },
   { href: '#about', label: { en: 'Roots', ar: 'الجذور' } },
   { href: '#contact', label: { en: 'Contact', ar: 'تواصل' } },
 ]
@@ -104,6 +105,93 @@ export const customService = {
     ar: 'لكل علامة قصة مختلفة. نحن نشكل التوجه التصميمي بما يناسب جمهورك وسوقك وجذورك.',
   },
   action: { en: 'Start the conversation →', ar: 'ابدأ المحادثة ←' },
+}
+
+export const impactSection = {
+  label: { en: 'THE PARTNERSHIP VALUE', ar: 'قيمة الشراكة' },
+  title: {
+    en: 'More than a service provider.<br><em>A partner in how you operate</em>.',
+    ar: 'أكثر من مجرد مزود خدمة.<br><em>شريك في طريقة عملك</em>.',
+  },
+  intro: {
+    en: 'At Lana Solution, we understand that companies need more than just a service provider. They need a reliable partner who understands their needs and can provide practical solutions that make a real difference.',
+    ar: 'ندرك في Lana Solution أن الشركات تحتاج إلى أكثر من مجرد مزود خدمة. إنها تحتاج إلى شريك موثوق يفهم احتياجاتها ويقدم حلولاً عملية تُحدث فرقاً حقيقياً.',
+  },
+}
+
+// NOTE: `value` + `suffix` are the figures animated on screen.
+// Replace them with Lana Solution's own measured results before launch.
+export const impactStats = [
+  {
+    value: 40,
+    suffix: '%',
+    label: { en: 'LESS MANUAL WORK', ar: 'عمل يدوي أقل' },
+    description: {
+      en: 'Routine tasks handled by systems instead of people, so your team spends its hours on the work that actually moves the business.',
+      ar: 'أنظمة تتولى المهام المتكررة بدلاً من الأشخاص، ليقضي فريقك وقته في العمل الذي يدفع النشاط فعلاً إلى الأمام.',
+    },
+  },
+  {
+    value: 30,
+    suffix: '%',
+    label: { en: 'LOWER RUNNING COST', ar: 'تكاليف تشغيل أقل' },
+    description: {
+      en: 'We remove the overlapping tools, extra steps, and quiet overhead that drain a budget month after month.',
+      ar: 'نزيل الأدوات المتداخلة والخطوات الزائدة والأعباء الصامتة التي تستنزف الميزانية شهراً بعد شهر.',
+    },
+  },
+  {
+    value: 24,
+    suffix: 'h',
+    label: { en: 'RESPONSE WINDOW', ar: 'زمن الاستجابة' },
+    description: {
+      en: 'A direct line to the people who built your solution — no ticket queues, no handovers, no waiting on a stranger.',
+      ar: 'تواصل مباشر مع الفريق الذي بنى الحل، دون طوابير تذاكر أو تحويلات أو انتظار لشخص لا يعرف عملك.',
+    },
+  },
+  {
+    value: 100,
+    suffix: '%',
+    label: { en: 'BUILT AROUND YOU', ar: 'مبني على قياسك' },
+    description: {
+      en: 'We do not resell templates. Every solution is shaped around your operation, your market, and the way your team already works.',
+      ar: 'لا نعيد بيع قوالب جاهزة. كل حل يُصاغ حول طريقة عمل مؤسستك وسوقك وأسلوب فريقك القائم.',
+    },
+  },
+]
+
+export const impactSteps = [
+  {
+    number: '01',
+    title: { en: 'Understand', ar: 'نفهم' },
+    description: {
+      en: 'We start with your operation, not our catalogue — learning how the business actually runs before proposing anything.',
+      ar: 'نبدأ من طريقة عمل مؤسستك لا من قائمة خدماتنا، ونتعرف على واقع النشاط قبل أن نقترح أي شيء.',
+    },
+  },
+  {
+    number: '02',
+    title: { en: 'Solve', ar: 'نحل' },
+    description: {
+      en: 'Whether the need is digital, technical, or operational, we choose the practical route that fits your team, budget, and timeline.',
+      ar: 'سواء كانت الحاجة رقمية أو تقنية أو تشغيلية، نختار المسار العملي الذي يناسب فريقك وميزانيتك ووقتك.',
+    },
+  },
+  {
+    number: '03',
+    title: { en: 'Move forward', ar: 'نمضي قدماً' },
+    description: {
+      en: 'We stay on after delivery, refining the solution as your business grows and its needs change.',
+      ar: 'نبقى معك بعد التسليم، ونطور الحل مع نمو أعمالك وتغير احتياجاتها.',
+    },
+  },
+]
+
+export const impactPledge = {
+  quote: {
+    en: 'When you work with us, you are not just paying for a service. You are <em>investing in a partner</em> who wants to understand your challenges, find the right solution, and help your business move forward.',
+    ar: 'عندما تعمل معنا فأنت لا تدفع مقابل خدمة فحسب، بل <em>تستثمر في شريك</em> يريد أن يفهم تحدياتك ويجد الحل المناسب ويساعد عملك على المضي قدماً.',
+  },
 }
 
 export const ctaBand = {

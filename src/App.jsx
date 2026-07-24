@@ -5,6 +5,7 @@ import { DuneSweep } from './Components/DuneSweep'
 import { NavBar } from './Components/NavBar'
 import { HeroSection } from './Components/HeroSection'
 import { ServicesSection } from './Components/ServicesSection'
+import { ImpactSection } from './Components/ImpactSection'
 import { CtaBand } from './Components/CtaBand'
 import { AboutSection } from './Components/AboutSection'
 import { ContactSection } from './Components/ContactSection'
@@ -136,6 +137,7 @@ function App() {
         />
         <HeroSection lang={lang} onNavigate={navigateWithSweep} renderHtml={renderHtml} />
         <ServicesSection lang={lang} onNavigate={navigateWithSweep} renderHtml={renderHtml} />
+        <ImpactSection lang={lang} renderHtml={renderHtml} />
         <CtaBand lang={lang} onNavigate={navigateWithSweep} renderHtml={renderHtml} />
         <AboutSection lang={lang} renderHtml={renderHtml} />
         <ContactSection
